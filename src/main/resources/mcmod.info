@@ -2,7 +2,7 @@
 {
   "modid": "rockcrystals",
   "name": "Rock Crystals",
-  "description": "Just a mod to learn the basics",
+  "description": "Just a mod to learn the basics of modding",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
