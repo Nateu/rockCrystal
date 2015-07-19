@@ -1,0 +1,9 @@
+< en_US.lang - English localization file for the mod Rock Crystals >
+
+item.rock_crystal.name=Rock Crystal
+item.power_crystal.name=Power Crystal
+
+tile.rock_crystal_ore.name=Rock Crystal Ore
+tile.rock_crystal_block.name=Rock Crystal Block
+
+itemGroup.rock_crystal_tab=Rock Crystal Mod

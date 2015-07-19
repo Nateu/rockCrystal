@@ -1,0 +1,16 @@
+[
+{
+  "modid": "rockcrystals",
+  "name": "Rock Crystals",
+  "description": "Just a mod to learn the basics",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["NateuPlays"],
+  "credits": "Mojang, Forge and FML peeps",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

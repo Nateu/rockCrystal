@@ -1,0 +1,6 @@
+{
+    "parent":"rockcrystals:items/standard_item",
+    "textures": {
+        "layer0":"rockcrystals:items/rock_crystal"
+    }
+}
