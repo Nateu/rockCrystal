@@ -1,7 +1,7 @@
-# Rock Crystals Mod
+## Rock Crystals Mod
 This is my first time coding in JAVA and I decided to do some Minecraft modding using Forge.
 
-## Resources used
+### Resources used
 
 - Worked through the Devoxx4Kids Minecraft Mod [workshop https://github.com/devoxx4kids/materials/tree/master/workshops/minecraft](https://github.com/devoxx4kids/materials/tree/master/workshops/minecraft) during Minecon 2015.
 
@@ -12,3 +12,10 @@ This is my first time coding in JAVA and I decided to do some Minecraft modding 
  - [First Block](http://bedrockminer.jimdo.com/modding-tutorials/basic-modding-1-8/first-block/)
 
 - Took some of the Creative tab stuff from [Minecraft Forge Tuts](http://tutorials.darkhax.net/custom-creative-tabs.html)
+
+### Known issues
+
+There are still some issues I need to fix:
+
+- Textures for the blocks and items don't show properly
+- All mod blocks and items won't display in the custom tab
