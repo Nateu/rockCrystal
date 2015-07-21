@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "rockcrystals:blocks/crystalline_tunnel_three_way"
+    }
+}

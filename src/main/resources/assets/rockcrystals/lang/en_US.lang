@@ -5,5 +5,11 @@ item.power_crystal.name=Power Crystal
 
 tile.rock_crystal_ore.name=Rock Crystal Ore
 tile.rock_crystal_block.name=Rock Crystal Block
+tile.crystalline_room.name=Crystalline Room
+tile.crystalline_tunnel_section.name=Crystalline Tunnel
+tile.crystalline_tunnel_corner.name=Crystalline Tunnel Corner
+tile.crystalline_tunnel_junction.name=Crystalline Tunnel Junction
+tile.crystalline_tunnel_three_way.name=Crystalline Tunnel Three Way
+tile.crystalline_tunnel_ending.name=Crystalline Tunnel Ending
 
 itemGroup.rock_crystal_tab=Rock Crystal Mod
