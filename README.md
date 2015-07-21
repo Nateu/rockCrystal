@@ -17,5 +17,7 @@ This is my first time coding in JAVA and I decided to do some Minecraft modding 
 
 There are still some issues I need to fix:
 
-- Textures for the blocks and items don't show properly
-- All mod blocks and items won't display in the custom tab
+- All textures need to be redone
+
+FIXED :: Textures for the blocks and items don't show properly
+FIXED :: All mod blocks and items won't display in the custom tab
