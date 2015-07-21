@@ -1,6 +1,11 @@
 {
-    "parent": "block/cube_all",
+    "parent": "block/cube",
     "textures": {
-        "all": "rockcrystals:blocks/crystalline_tunnel_junction"
+        "down":     "rockcrystals:blocks/crystalline_tunnel_section_outside",
+        "up":       "rockcrystals:blocks/crystalline_tunnel_section_outside",
+        "north":    "rockcrystals:blocks/crystalline_tunnel_section",
+        "south":    "rockcrystals:blocks/crystalline_tunnel_section",
+        "west":     "rockcrystals:blocks/crystalline_tunnel_section",
+        "east":     "rockcrystals:blocks/crystalline_tunnel_section"
     }
 }
