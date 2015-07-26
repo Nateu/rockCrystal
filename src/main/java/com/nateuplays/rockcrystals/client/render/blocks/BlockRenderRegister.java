@@ -20,6 +20,7 @@ public final class BlockRenderRegister {
 		reg(ModBlocks.crystallineTunnelJunction);
 //		reg(ModBlocks.crystallineTunnelThreeWay);
 		reg(ModBlocks.crystallineTunnelEnding);
+		reg(ModBlocks.crystallineBlock);
 	}
 
 	public static void reg(Block block) {

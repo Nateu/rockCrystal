@@ -30,4 +30,5 @@ public class BasicBlock extends Block {
     public BasicBlock(String unlocalizedName) {
         this(unlocalizedName, 2.0f, 10.0f);
     }
+    
 }

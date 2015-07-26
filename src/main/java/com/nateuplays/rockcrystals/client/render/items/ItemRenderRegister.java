@@ -19,6 +19,7 @@ public final class ItemRenderRegister {
 	public static void registerItemRenderer() {
 		reg(ModItems.rockCrystal);
 		reg(ModItems.powerCrystal);
+		reg(ModItems.rockCrystalRod);
 	}
 
 }

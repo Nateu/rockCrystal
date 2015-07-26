@@ -279,12 +279,12 @@ public final class GenerateCrystallineTunnel {
 			break;
 		case 4:
 			generateTunnelBlindWall(worldIn, pos.west(6), tunnelBlock, growDirection);
-			if (enumFacingOrdinal == 4) { // make a corner to the south
-				tmpDirection = 3;
-				tmpPos = pos.west(4).south(2);
-			} else if (enumFacingOrdinal == 2) { // make a corner to the north
+			if (enumFacingOrdinal == 4) { // make a corner to the north
 				tmpDirection = 2;
 				tmpPos = pos.west(4).north(2);
+			} else if (enumFacingOrdinal == 2) { // make a corner to the south
+				tmpDirection = 3;
+				tmpPos = pos.west(4).south(2);
 			} 
 			break;
 		case 5:

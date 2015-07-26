@@ -30,6 +30,7 @@ public final class ModRecipe {
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelEnding)		, "b b", "bpb", "bbb", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelEnding)		, "bbb", "bp ", "bbb", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelEnding)		, "bbb", " pb", "bbb", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);
+		GameRegistry.addRecipe(new ItemStack(ModItems.rockCrystalRod)				, " c ", "cpc", " s ", 'c', ModItems.rockCrystal, 'p', ModItems.powerCrystal, 's', Items.stick);
 	}
 
 }

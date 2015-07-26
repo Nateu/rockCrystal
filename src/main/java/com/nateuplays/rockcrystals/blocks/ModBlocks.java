@@ -4,6 +4,7 @@ import com.nateuplays.rockcrystals.items.ModItems;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public final class ModBlocks {
@@ -16,6 +17,7 @@ public final class ModBlocks {
 	public static Block crystallineTunnelJunction;
 //	public static Block crystallineTunnelThreeWay;
 	public static Block crystallineTunnelEnding;
+	public static Block crystallineBlock;
 	
 	
 	public static void createBlocks() {
@@ -27,5 +29,6 @@ public final class ModBlocks {
 		GameRegistry.registerBlock(crystallineTunnelJunction = new OrientationBlock("crystalline_tunnel_junction", Material.rock, 1.0f, 15.0f).setCreativeTab(com.nateuplays.rockcrystals.Main.tabRockCrystalMod), "crystalline_tunnel_junction");
 		GameRegistry.registerBlock(crystallineTunnelCorner = new OrientationBlock("crystalline_tunnel_corner", Material.rock, 1.0f, 15.0f).setCreativeTab(com.nateuplays.rockcrystals.Main.tabRockCrystalMod), "crystalline_tunnel_corner");
 		GameRegistry.registerBlock(crystallineTunnelEnding = new OrientationBlock("crystalline_tunnel_ending", Material.rock, 1.0f, 15.0f).setCreativeTab(com.nateuplays.rockcrystals.Main.tabRockCrystalMod), "crystalline_tunnel_ending");
+		GameRegistry.registerBlock(crystallineBlock = new BasicBlock("crystalline_block", Material.ice, 1.00f, 1.0f).setCreativeTab(com.nateuplays.rockcrystals.Main.tabRockCrystalMod).setLightLevel(1.0f), "crystalline_block");
 	}
 }
