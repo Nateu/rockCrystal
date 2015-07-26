@@ -1,6 +1,6 @@
 {
     "parent":"rockcrystals:item/standard_item",
     "textures": {
-        "layer0":"rockcrystals:items/power_crystal"
+        "layer0":"rockcrystals:items/power_crystal_16"
     }
 }

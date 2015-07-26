@@ -1,7 +1,30 @@
 {
     "variants": {
-        "normal": {
-            "model": "rockcrystals:crystalline_tunnel_section"
+        "normal": { 
+            "model": "rockcrystals:crystalline_tunnel_section" 
+        },
+        "facing=north": {
+            model: "rockcrystals:crystalline_tunnel_section",
+            "y": 180
+        },
+        "facing=east": {
+            model: "rockcrystals:crystalline_tunnel_section",
+            "y": 270
+        },
+        "facing=south": {
+            model: "rockcrystals:crystalline_tunnel_section"
+        },
+        "facing=west": {
+            model: "rockcrystals:crystalline_tunnel_section",
+            "y": 90
+        },
+        "facing=up": {
+            model: "rockcrystals:crystalline_tunnel_section",
+            "x": 270
+        },
+        "facing=down": {
+            model: "rockcrystals:crystalline_tunnel_section",
+            "x": 90
         }
     }
 }

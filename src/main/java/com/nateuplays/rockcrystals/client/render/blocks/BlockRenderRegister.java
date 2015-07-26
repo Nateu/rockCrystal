@@ -14,11 +14,11 @@ public final class BlockRenderRegister {
 	public static void registerBlockRenderer() {
 	    reg(ModBlocks.rockCrystalOre);
 	    reg(ModBlocks.rockCrystalBlock);
-	    reg(ModBlocks.crystallineRoom);
+//	    reg(ModBlocks.crystallineRoom);
 		reg(ModBlocks.crystallineTunnelSection);
 		reg(ModBlocks.crystallineTunnelCorner);
 		reg(ModBlocks.crystallineTunnelJunction);
-		reg(ModBlocks.crystallineTunnelThreeWay);
+//		reg(ModBlocks.crystallineTunnelThreeWay);
 		reg(ModBlocks.crystallineTunnelEnding);
 	}
 

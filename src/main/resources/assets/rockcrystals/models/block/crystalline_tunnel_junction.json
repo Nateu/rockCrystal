@@ -1,11 +1,11 @@
 {
     "parent": "block/cube",
     "textures": {
-        "down":     "rockcrystals:blocks/crystalline_tunnel_section_outside",
-        "up":       "rockcrystals:blocks/crystalline_tunnel_section_outside",
-        "north":    "rockcrystals:blocks/crystalline_tunnel_section",
-        "south":    "rockcrystals:blocks/crystalline_tunnel_section",
-        "west":     "rockcrystals:blocks/crystalline_tunnel_section",
-        "east":     "rockcrystals:blocks/crystalline_tunnel_section"
+        "down":     "rockcrystals:blocks/rock_crystal_ore_16",
+        "up":       "rockcrystals:blocks/crystalline_tunnel_n-e-s-w_16",
+        "north":    "rockcrystals:blocks/crystalline_tunnel_16",
+        "south":    "rockcrystals:blocks/crystalline_tunnel_16",
+        "west":     "rockcrystals:blocks/crystalline_tunnel_16",
+        "east":     "rockcrystals:blocks/crystalline_tunnel_16"
     }
 }

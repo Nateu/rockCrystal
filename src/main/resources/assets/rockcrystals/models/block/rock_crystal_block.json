@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "rockcrystals:blocks/rock_crystal_block"
+        "all": "rockcrystals:blocks/rock_crystal_block_16"
     }
 }
