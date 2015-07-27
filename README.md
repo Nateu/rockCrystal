@@ -8,16 +8,16 @@ These crystals can then be used in various ways to be able to generate a tunnel 
 
 ## Blocks and Items
 
-#### BLOCK :: Rock Crystal Ore
+### BLOCK :: Rock Crystal Ore
 Will drop a variable amount of Rock Crystals
 
-#### ITEM :: Rock Crystals
+### ITEM :: Rock Crystals
 Dropped by mining Rock Crystal Ore. Nine of these can be crafted into a Rock Crystal Block. replace the middle crystal with a Red Stone Block to craft a Power Crystal
 
-#### BLOCK :: Rock Crystal Block
+### BLOCK :: Rock Crystal Block
 Multiple blocks can be used togther witch Power Crystals to creat Tunnel section blocks.
 
-#### BLOCK(S) :: tunnel section blocks
+### BLOCK(S) :: tunnel section blocks
 There are several type of tunnel section blocks. Most of them generate a section of tunnel with a length of 9 blocks. All sections are 3 by 3 (interior) have a crystalline Block floor and ceiling. Depening on the type of section the side walls will be filled in with the same Crystalline Blocks.  
 
 section types:
@@ -27,13 +27,13 @@ section types:
 - junction
 - T-junction
 
-#### ITEM :: Power Crystal
+### ITEM :: Power Crystal
 The Power Crystal is used in all tunnel section blocks and to make a Rock Crystal Rod.
 
-#### BLOCK :: Crystalline Block
+### BLOCK :: Crystalline Block
 This is a unique block that is only obtained when the crystals are used in tunnel generation.
 
-#### ITEM :: Rock Crystal Rod
+### ITEM :: Rock Crystal Rod
 There is only one use for this silly rod and that is to activate a tunnel section. It will start the generation of the tunnel and the Cristalline Blocks. All tunnels section blocks can only generate in a horizontal plane. (Be crafty when you want to tunnel up or down!)  
 When a tunnel section block is hit on a side of the block where a tunnel opening will be it wil trigger the block and generate the tunnel section in the opposit direction (e.g. if hit on the north face of the block it will generate towards the south) This wat one can stand in a tunnle place the next section block activate it and move through it to the create the next section.
 
@@ -46,6 +46,51 @@ C|C|C
 
 C = Rock Crystal
 
+### Crystalline Tunnel Section (straight)
+B|E|B  
+B|P|B  
+B|E|B  
+
+B = Rock Crystal Block  
+P = Power Crystal  
+E = *empty*  
+
+### Crystalline Tunnel End
+B|B|B  
+B|P|B  
+B|E|B  
+
+B = Rock Crystal Block  
+P = Power Crystal  
+E = *empty*  
+
+### Crystalline Tunnel Corner
+B|B|B  
+B|P|E  
+B|E|B  
+
+B = Rock Crystal Block  
+P = Power Crystal  
+E = *empty*  
+
+### Crystalline Tunnel Three Way
+B|B|B  
+E|P|E  
+B|E|B  
+
+B = Rock Crystal Block  
+P = Power Crystal  
+E = *empty*  
+
+### Crystalline Tunnel Junction
+B|E|B  
+E|P|E  
+B|E|B  
+
+B = Rock Crystal Block  
+P = Power Crystal  
+E = *empty*  
+
 ### Power Crystal
 C|C|C  
 C|R|C  
@@ -55,13 +100,14 @@ C = Rock Crystal
 R = Red Stone Block
 
 ### Rock Crystal Rod
- |C|  
+E|C|E  
 C|P|C  
- |S|  
+E|S|E  
 
 C = Rock Crystal  
 P = Power Crystal  
 S = Stick  
+E = *empty*
 
 ## Resources used
 
