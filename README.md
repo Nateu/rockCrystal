@@ -18,7 +18,8 @@ Dropped by mining Rock Crystal Ore. Nine of these can be crafted into a Rock Cry
 Multiple blocks can be used togther witch Power Crystals to creat Tunnel section blocks.
 
 #### BLOCK(S) :: tunnel section blocks
-There are several type of tunnel section blocks. Most of them generate a section of tunnel with a length of 9 blocks. All sections are 3 by 3 (interior) have a crystalline Block floor and ceiling. depening on the type of section the side walls will be filled in with the same Crystalline Blocks
+There are several type of tunnel section blocks. Most of them generate a section of tunnel with a length of 9 blocks. All sections are 3 by 3 (interior) have a crystalline Block floor and ceiling. Depening on the type of section the side walls will be filled in with the same Crystalline Blocks.  
+
 section types:
 - straight section
 - ending
@@ -33,41 +34,38 @@ The Power Crystal is used in all tunnel section blocks and to make a Rock Crysta
 This is a unique block that is only obtained when the crystals are used in tunnel generation.
 
 #### ITEM :: Rock Crystal Rod
-There is only one use for this silly rod and that is to activate a tunnel section. It will start the generation of the tunnel and the Cristalline Blocks. All tunnels section blocks can only generate in a horizontal plane. (Be crafty when you want to tunnel up or down!) When a tunnel section block is hit on a side of the block where a tunnel opening will be it wil trigger the block and generate the tunnel section in the opposit direction (e.g. if hit on the north face of the block it will generate towards the south) This wat one can stand in a tunnle place the next section block activate it and move through it to the create the next section.
+There is only one use for this silly rod and that is to activate a tunnel section. It will start the generation of the tunnel and the Cristalline Blocks. All tunnels section blocks can only generate in a horizontal plane. (Be crafty when you want to tunnel up or down!)  
+When a tunnel section block is hit on a side of the block where a tunnel opening will be it wil trigger the block and generate the tunnel section in the opposit direction (e.g. if hit on the north face of the block it will generate towards the south) This wat one can stand in a tunnle place the next section block activate it and move through it to the create the next section.
 
 ## Recipes
 
 ### Rock Crystal Block
-C|C|C
-C|C|C
-C|C|C
+C|C|C  
+C|C|C  
+C|C|C  
 
 C = Rock Crystal
 
 ### Power Crystal
-C|C|C
-C|R|C
-C|C|C
+C|C|C  
+C|R|C  
+C|C|C  
 
-C = Rock Crystal
+C = Rock Crystal  
 R = Red Stone Block
 
 ### Rock Crystal Rod
- |C|
-C|P|C
- |S|
+ |C|  
+C|P|C  
+ |S|  
 
-C = Rock Crystal
-P = Power Crystal
-S = Stick
-
-
-
-
+C = Rock Crystal  
+P = Power Crystal  
+S = Stick  
 
 ## Resources used
 
-- Worked through the Devoxx4Kids Minecraft Mod [workshop https://github.com/devoxx4kids/materials/tree/master/workshops/minecraft](https://github.com/devoxx4kids/materials/tree/master/workshops/minecraft) during Minecon 2015.
+- Worked through the Devoxx4Kids [Minecraft Mod workshop](https://github.com/devoxx4kids/materials/tree/master/workshops/minecraft) during Minecon 2015.
 
 - Used more indepth tutorials from [jimdo](http://bedrockminer.jimdo.com/modding-tutorials/basic-modding-1-8/)
  - [Basic Modfile](http://bedrockminer.jimdo.com/modding-tutorials/basic-modding-1-8/basic-modfile/)
