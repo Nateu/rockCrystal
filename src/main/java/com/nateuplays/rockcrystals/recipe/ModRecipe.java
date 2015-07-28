@@ -22,10 +22,10 @@ public final class ModRecipe {
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelCorner)		, "b b", " pb", "bbb", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelCorner)		, "bbb", "bp ", "b b", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelJunction)	, "b b", " p ", "b b", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);
-//		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelThreeWay)	, "b b", " p ", "bbb", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);
-//		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelThreeWay)	, "bbb", " p ", "b b", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);
-//		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelThreeWay)	, "b b", "bp ", "b b", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);
-//		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelThreeWay)	, "b b", " pb", "b b", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelThreeWay)	, "b b", " p ", "bbb", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelThreeWay)	, "bbb", " p ", "b b", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelThreeWay)	, "b b", "bp ", "b b", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelThreeWay)	, "b b", " pb", "b b", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelEnding)		, "bbb", "bpb", "b b", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelEnding)		, "b b", "bpb", "bbb", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.crystallineTunnelEnding)		, "bbb", "bp ", "bbb", 'b', ModBlocks.rockCrystalBlock, 'p', ModItems.powerCrystal);

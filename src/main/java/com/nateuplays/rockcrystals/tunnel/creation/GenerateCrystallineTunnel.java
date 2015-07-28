@@ -7,14 +7,11 @@ import net.minecraft.world.World;
 
 public final class GenerateCrystallineTunnel {
 
-/*
-	enumFacingOrdinal:
-	NORTH	= 2
-	SOUTH	= 3
-	WEST	= 4
-	EAST	= 5
- */
-
+	private final static int NORTH = 2;
+	private final static int SOUTH = 3;
+	private final static int WEST = 4;
+	private final static int EAST = 5;
+	
 	// Helpers
 	private static void generateTunnelBlindWall (World worldIn, BlockPos pos, Block tunnelBlock, int growDirection) {
 		if (growDirection == 2 || growDirection == 3) {
@@ -350,5 +347,137 @@ public final class GenerateCrystallineTunnel {
 			break;
 		}
 	}
-	public static void generateTunnelThreeWay (World worldIn, BlockPos pos, IBlockState state, int enumFacingOrdinal, Block tunnelBlock, int growDirection) {}
+	public static void generateTunnelThreeWay (World worldIn, BlockPos pos, IBlockState state, int enumFacingOrdinal, Block tunnelBlock, int growDirection) {
+		
+		System.out.print("Facing: ");
+		System.out.println(enumFacingOrdinal);
+		
+		System.out.print("Grow: ");
+		System.out.println(growDirection);
+		int tmpDirectionOne = 0;
+		int tmpDirectionTwo = 0;
+		BlockPos tmpPosOne = null;
+		BlockPos tmpPosTwo = null;
+
+		generateTunnelSlice(worldIn, pos, enumFacingOrdinal, tunnelBlock, 3, growDirection);
+
+		switch(growDirection) {
+		case NORTH:
+			generateTunnelJunctionBySlice(worldIn, pos.north(2), enumFacingOrdinal, tunnelBlock, 5, growDirection);
+			if (enumFacingOrdinal == NORTH) {
+				// made the intersection and now then close north side
+				generateTunnelBlindWall(worldIn, pos.north(6), tunnelBlock, growDirection);
+				// make corners to the east and west
+				tmpDirectionOne = EAST;
+				tmpPosOne = pos.north(4).east(2);
+				tmpDirectionTwo = WEST;
+				tmpPosTwo = pos.north(4).west(2);
+			} else if (enumFacingOrdinal == WEST) {
+				// made the intersection and now then close west side
+				generateTunnelBlindWall(worldIn, pos.north(4).west(2), tunnelBlock, EAST);
+				// continue north and make a corner to the east
+				tmpDirectionOne = NORTH;
+				tmpPosOne = pos.north(6);
+				tmpDirectionTwo = EAST;
+				tmpPosTwo = pos.north(4).east(2);
+			} else if (enumFacingOrdinal == EAST) {
+				// made the intersection and now then close east side
+				generateTunnelBlindWall(worldIn, pos.north(4).east(2), tunnelBlock, WEST);
+				// continue north and make a corner to the west
+				tmpDirectionOne = NORTH;
+				tmpPosOne = pos.north(6);
+				tmpDirectionTwo = WEST;
+				tmpPosTwo = pos.north(4).west(2);
+			}
+			break;
+		case SOUTH:
+			generateTunnelJunctionBySlice(worldIn, pos.south(2), enumFacingOrdinal, tunnelBlock, 5, growDirection);
+			if (enumFacingOrdinal == SOUTH) {
+				// made the intersection and now then close north side
+				generateTunnelBlindWall(worldIn, pos.south(6), tunnelBlock, growDirection);
+				// make corners to the east and west
+				tmpDirectionOne = EAST;
+				tmpPosOne = pos.south(4).east(2);
+				tmpDirectionTwo = WEST;
+				tmpPosTwo = pos.south(4).west(2);
+			} else if (enumFacingOrdinal == WEST) {
+				// made the intersection and now then close east side
+				generateTunnelBlindWall(worldIn, pos.south(4).west(2), tunnelBlock, EAST);
+				// continue south and make a corner to the west
+				tmpDirectionOne = SOUTH;
+				tmpPosOne = pos.south(6);
+				tmpDirectionTwo = EAST;
+				tmpPosTwo = pos.south(4).east(2);
+			} else if (enumFacingOrdinal == EAST) {
+				// made the intersection and now then close west side
+				generateTunnelBlindWall(worldIn, pos.south(4).east(2), tunnelBlock, WEST);
+				// continue south and make a corner to the east
+				tmpDirectionOne = SOUTH;
+				tmpPosOne = pos.south(6);
+				tmpDirectionTwo = WEST;
+				tmpPosTwo = pos.south(4).west(2);
+			}
+			break;
+		case WEST:
+			generateTunnelJunctionBySlice(worldIn, pos.west(2), enumFacingOrdinal, tunnelBlock, 5, growDirection);
+			if (enumFacingOrdinal == WEST) {
+				// made the intersection and now then close east side
+				generateTunnelBlindWall(worldIn, pos.west(6), tunnelBlock, growDirection);
+				// make corners to the north and south
+				tmpDirectionOne = NORTH;
+				tmpPosOne = pos.west(4).north(2);
+				tmpDirectionTwo = SOUTH;
+				tmpPosTwo = pos.west(4).south(2);
+			} else if (enumFacingOrdinal == NORTH) {
+				// made the intersection and now then close north side
+				generateTunnelBlindWall(worldIn, pos.west(4).north(2), tunnelBlock, SOUTH);
+				// continue west and make a corner to the south
+				tmpDirectionOne = WEST;
+				tmpPosOne = pos.west(6);
+				tmpDirectionTwo = SOUTH;
+				tmpPosTwo = pos.west(4).south(2);
+			} else if (enumFacingOrdinal == SOUTH) {
+				// made the intersection and now then close south side
+				generateTunnelBlindWall(worldIn, pos.west(4).south(2), tunnelBlock, NORTH);
+				// continue west and make a corner to the north
+				tmpDirectionOne = WEST;
+				tmpPosOne = pos.west(6);
+				tmpDirectionTwo = NORTH;
+				tmpPosTwo = pos.west(4).north(2);
+			}
+			break;
+		case EAST:
+			generateTunnelJunctionBySlice(worldIn, pos.east(2), enumFacingOrdinal, tunnelBlock, 5, growDirection);
+			if (enumFacingOrdinal == EAST) {
+				// made the intersection and now then close west side
+				generateTunnelBlindWall(worldIn, pos.east(6), tunnelBlock, growDirection);
+				// make corners to the north and south
+				tmpDirectionOne = NORTH;
+				tmpPosOne = pos.east(4).north(2);
+				tmpDirectionTwo = SOUTH;
+				tmpPosTwo = pos.east(4).south(2);
+			} else if (enumFacingOrdinal == NORTH) {
+				// made the intersection and now then close north side
+				generateTunnelBlindWall(worldIn, pos.east(4).north(2), tunnelBlock, SOUTH);
+				// continue east and make a corner to the south
+				tmpDirectionOne = EAST;
+				tmpPosOne = pos.east(6);
+				tmpDirectionTwo = SOUTH;
+				tmpPosTwo = pos.east(4).south(2);
+			} else if (enumFacingOrdinal == SOUTH) {
+				// made the intersection and now then close south side
+				generateTunnelBlindWall(worldIn, pos.east(4).south(2), tunnelBlock, NORTH);
+				// continue east and make a corner to the north
+				tmpDirectionOne = EAST;
+				tmpPosOne = pos.east(6);
+				tmpDirectionTwo = NORTH;
+				tmpPosTwo = pos.east(4).north(2);
+			}
+			break;
+		}
+
+		generateTunnelSlice(worldIn, tmpPosOne, tmpDirectionOne, tunnelBlock, 3, tmpDirectionOne);
+		generateTunnelSlice(worldIn, tmpPosTwo, tmpDirectionTwo, tunnelBlock, 3, tmpDirectionTwo);
+	
+	}
 }

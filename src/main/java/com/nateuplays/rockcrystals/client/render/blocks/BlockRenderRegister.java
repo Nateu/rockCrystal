@@ -18,7 +18,7 @@ public final class BlockRenderRegister {
 		reg(ModBlocks.crystallineTunnelSection);
 		reg(ModBlocks.crystallineTunnelCorner);
 		reg(ModBlocks.crystallineTunnelJunction);
-//		reg(ModBlocks.crystallineTunnelThreeWay);
+		reg(ModBlocks.crystallineTunnelThreeWay);
 		reg(ModBlocks.crystallineTunnelEnding);
 		reg(ModBlocks.crystallineBlock);
 	}

@@ -2,7 +2,7 @@
     "parent": "block/cube",
     "textures": {
         "down":     "rockcrystals:blocks/rock_crystal_ore_16",
-        "up":       "rockcrystals:blocks/crystalline_tunnel_e-s-w_16",
+        "up":       "rockcrystals:blocks/crystalline_tunnel_n-e-w_16",
         "north":    "rockcrystals:blocks/rock_crystal_ore_16",
         "south":    "rockcrystals:blocks/crystalline_tunnel_16",
         "west":     "rockcrystals:blocks/crystalline_tunnel_16",

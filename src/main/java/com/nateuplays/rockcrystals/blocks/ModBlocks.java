@@ -15,7 +15,7 @@ public final class ModBlocks {
 	public static Block crystallineTunnelSection;
 	public static Block crystallineTunnelCorner;
 	public static Block crystallineTunnelJunction;
-//	public static Block crystallineTunnelThreeWay;
+	public static Block crystallineTunnelThreeWay;
 	public static Block crystallineTunnelEnding;
 	public static Block crystallineBlock;
 	
@@ -25,7 +25,7 @@ public final class ModBlocks {
 		GameRegistry.registerBlock(rockCrystalBlock = new BasicBlock("rock_crystal_block", Material.rock, 0.45f, 5.0f).setCreativeTab(com.nateuplays.rockcrystals.Main.tabRockCrystalMod), "rock_crystal_block");
 //		GameRegistry.registerBlock(crystallineRoom = new BasicBlock("crystalline_room", Material.rock, 1.0f, 15.0f).setCreativeTab(com.nateuplays.rockcrystals.Main.tabRockCrystalMod), "crystalline_room");
 		GameRegistry.registerBlock(crystallineTunnelSection = new OrientationBlock("crystalline_tunnel_section", Material.rock, 1.0f, 15.0f).setCreativeTab(com.nateuplays.rockcrystals.Main.tabRockCrystalMod), "crystalline_tunnel_section");
-//		GameRegistry.registerBlock(crystallineTunnelThreeWay = new OrientationBlock("crystalline_tunnel_three_way", Material.rock, 1.0f, 15.0f).setCreativeTab(com.nateuplays.rockcrystals.Main.tabRockCrystalMod), "crystalline_tunnel_three_way");
+		GameRegistry.registerBlock(crystallineTunnelThreeWay = new OrientationBlock("crystalline_tunnel_three_way", Material.rock, 1.0f, 15.0f).setCreativeTab(com.nateuplays.rockcrystals.Main.tabRockCrystalMod), "crystalline_tunnel_three_way");
 		GameRegistry.registerBlock(crystallineTunnelJunction = new OrientationBlock("crystalline_tunnel_junction", Material.rock, 1.0f, 15.0f).setCreativeTab(com.nateuplays.rockcrystals.Main.tabRockCrystalMod), "crystalline_tunnel_junction");
 		GameRegistry.registerBlock(crystallineTunnelCorner = new OrientationBlock("crystalline_tunnel_corner", Material.rock, 1.0f, 15.0f).setCreativeTab(com.nateuplays.rockcrystals.Main.tabRockCrystalMod), "crystalline_tunnel_corner");
 		GameRegistry.registerBlock(crystallineTunnelEnding = new OrientationBlock("crystalline_tunnel_ending", Material.rock, 1.0f, 15.0f).setCreativeTab(com.nateuplays.rockcrystals.Main.tabRockCrystalMod), "crystalline_tunnel_ending");

@@ -77,12 +77,6 @@ public class OrientationBlock extends Block {
 
         	// check if the block is place facing up or down
         	if (2 <= enumfacing.ordinal() && enumfacing.ordinal() <= 5) {
-
-        		/* Optional
-        		 * TODO: Remove neighborBlock
-					if (neighborBlock == Blocks.stone_button || neighborBlock == Blocks.wooden_button || neighborBlock == Blocks.lever) {}
-        		 */
-
         		if (2 <= growDirection && growDirection <= 5) {
         			
     	            switch(this.getUnlocalizedName().substring(5)) {
@@ -102,9 +96,9 @@ public class OrientationBlock extends Block {
     	                GenerateCrystallineTunnel.generateTunnelThreeWay(worldIn, pos, state, enumfacing.ordinal(), ModBlocks.crystallineBlock, growDirection);
     	            	break;
     	            }
+
         		}
         	}
-        	
     	}
         return false;
     }
