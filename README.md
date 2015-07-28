@@ -6,6 +6,8 @@ This mod is inspired by the [Tok'Ra Tunnels](http://stargate.wikia.com/wiki/Tok'
 It will spawn in a new ore type in the world (still on my todo list; world generation) which can be mined for Rock Crystals.
 These crystals can then be used in various ways to be able to generate a tunnel system. The generation will consume all blocks and items that are in de desigated area, be sure to remove valuable items, chests and such. This method of tunneling should be used in regions that are already explored or have little to no chance of having special blocks.
 
+Quick [demo vid](https://youtu.be/Ggz6RaoXq9g) I made to show of current status!
+
 ## Blocks and Items
 
 ### BLOCK :: Rock Crystal Ore
