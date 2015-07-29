@@ -16,14 +16,14 @@ public class RockCrystalOreWorldGen implements IWorldGenerator {
 	private WorldGenMinable rock_crystal_ore;
 
 	public RockCrystalOreWorldGen () {
-		this.rock_crystal_ore = new WorldGenMinable(ModBlocks.rockCrystalOre.getDefaultState(), 7);
+		this.rock_crystal_ore = new WorldGenMinable(ModBlocks.rockCrystalOre.getDefaultState(), 8);
 	}
 	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider) {
 		switch (world.provider.getDimensionId()) {
 	    case 0: //Overworld
-	    	this.runGenerator(this.rock_crystal_ore, world, random, chunkX, chunkZ, 20, 40, 60);
+	    	this.runGenerator(this.rock_crystal_ore, world, random, chunkX, chunkZ, 20, 32, 64);
 	        break;
 	    case -1: //Nether
 	        break;
