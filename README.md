@@ -8,6 +8,9 @@ These crystals can then be used in various ways to be able to generate a tunnel 
 
 Quick [demo vid](https://youtu.be/Ggz6RaoXq9g) I made to show of current status!
 
+## To Do List
+- Make the new Ore spawn during world generation.
+
 ## Blocks and Items
 
 ### BLOCK :: Rock Crystal Ore
@@ -124,11 +127,8 @@ E = *empty*
 - Took some of the Creative tab stuff from [Minecraft Forge Tuts](http://tutorials.darkhax.net/custom-creative-tabs.html)
 
 ## Known issues
-
 There are still some issues I need to fix:
-
-- All textures need to be redone
-
+- Textures need to be redone
 
 #### FIXED
 - Textures for the blocks and items don't show properly
