@@ -9,7 +9,8 @@ These crystals can then be used in various ways to be able to generate a tunnel 
 Quick [demo vid](https://youtu.be/Ggz6RaoXq9g) I made to show of current status!
 
 ## To Do List
-- Make the new Ore spawn during world generation.
+- Make the new Ore spawn during world generation. [Done: 29-07-2015]
+- Alpha tests
 - Refactor the generation code
 - (optional) make generation a sequence instead of instant spawning in
 
