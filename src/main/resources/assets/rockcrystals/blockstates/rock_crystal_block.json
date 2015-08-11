@@ -1,7 +1,7 @@
 {
     "variants": {
         "normal": {
-            "model": "rockcrystals:crystalline_block"
+            "model": "rockcrystals:rock_crystal_block"
         }
     }
 }

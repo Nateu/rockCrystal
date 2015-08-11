@@ -78,25 +78,22 @@ public class OrientationBlock extends Block {
         	// check if the block is place facing up or down
         	if (2 <= enumfacing.ordinal() && enumfacing.ordinal() <= 5) {
         		if (2 <= growDirection && growDirection <= 5) {
-        			
-    	            switch(this.getUnlocalizedName().substring(5)) {
-    	            case "crystalline_tunnel_corner":
-    	                GenerateCrystallineTunnel.generateTunnelCorner(worldIn, pos, state, enumfacing.ordinal(), ModBlocks.crystallineBlock, growDirection);
-    	            	break;
-    	            case "crystalline_tunnel_ending":
-    	                GenerateCrystallineTunnel.generateTunnelEnding(worldIn, pos, state, enumfacing.ordinal(), ModBlocks.crystallineBlock, growDirection);
-    	            	break;
-    	            case "crystalline_tunnel_junction":
-    	                GenerateCrystallineTunnel.generateTunnelJunction(worldIn, pos, state, enumfacing.ordinal(), ModBlocks.crystallineBlock, growDirection);
-    	            	break;
-    	            case "crystalline_tunnel_section":
-    	                GenerateCrystallineTunnel.generateTunnelSection(worldIn, pos, state, enumfacing.ordinal(), ModBlocks.crystallineBlock, growDirection);
-    	            	break;
-    	            case "crystalline_tunnel_three_way":
-    	                GenerateCrystallineTunnel.generateTunnelThreeWay(worldIn, pos, state, enumfacing.ordinal(), ModBlocks.crystallineBlock, growDirection);
-    	            	break;
-    	            }
 
+        			if (this.getUnlocalizedName().substring(5).compareTo("crystalline_tunnel_corner") == 0) {
+    	                GenerateCrystallineTunnel.generateTunnelCorner(worldIn, pos, state, enumfacing.ordinal(), ModBlocks.crystallineBlock, growDirection);
+        			} 
+        			if (this.getUnlocalizedName().substring(5).compareTo("crystalline_tunnel_ending") == 0) {
+    	                GenerateCrystallineTunnel.generateTunnelEnding(worldIn, pos, state, enumfacing.ordinal(), ModBlocks.crystallineBlock, growDirection);
+        			} 
+        			if (this.getUnlocalizedName().substring(5).compareTo("crystalline_tunnel_junction") == 0) {
+    	                GenerateCrystallineTunnel.generateTunnelJunction(worldIn, pos, state, enumfacing.ordinal(), ModBlocks.crystallineBlock, growDirection);
+        			} 
+        			if (this.getUnlocalizedName().substring(5).compareTo("crystalline_tunnel_section") == 0) {
+    	                GenerateCrystallineTunnel.generateTunnelSection(worldIn, pos, state, enumfacing.ordinal(), ModBlocks.crystallineBlock, growDirection);
+        			} 
+        			if (this.getUnlocalizedName().substring(5).compareTo("crystalline_tunnel_three_way") == 0) {
+    	                GenerateCrystallineTunnel.generateTunnelThreeWay(worldIn, pos, state, enumfacing.ordinal(), ModBlocks.crystallineBlock, growDirection);
+    	            }
         		}
         	}
     	}
